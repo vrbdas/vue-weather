@@ -12,7 +12,7 @@
     </div>
     <p class="error">{{ inputError }}</p>
     <p v-if="city.length == 0">City not selected</p>
-    <p v-else>Weather in {{ cityName }}</p>
+    <p v-else>Weather in {{ cityName }}:</p>
     <div v-if="info != null">
       <p>Condition: {{ showMain }}</p>
       <p>Temperature: {{ showTemp }}</p>
